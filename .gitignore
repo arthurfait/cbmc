@@ -104,6 +104,7 @@ src/goto-instrument/goto-instrument.exe
 src/jbmc/jbmc
 src/musketeer/musketeer
 src/musketeer/musketeer.exe
+src/solvers/smt2/smt2_solver
 src/symex/symex
 src/symex/symex.exe
 src/goto-diff/goto-diff
