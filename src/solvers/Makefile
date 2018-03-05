@@ -240,5 +240,6 @@ solvers$(LIBEXT): $(OBJ) $(SOLVER_LIB)
 	$(LINKLIB) $(LIBSOLVER)
 
 smt2_solver$(EXEEXT): $(OBJ) smt2/smt2_solver$(OBJEXT) \
-	../util/util$(LIBEXT) ../big-int/big-int$(LIBEXT) $(SOLVER_LIB)
+	../util/util$(LIBEXT) ../big-int/big-int$(LIBEXT) $(SOLVER_LIB) ../langapi/langapi$(LIBEXT) \
+	../java_bytecode/java_bytecode$(LIBEXT) ../goto-programs/goto-programs$(LIBEXT)
 	$(LINKBIN) $(LIBSOLVER)
