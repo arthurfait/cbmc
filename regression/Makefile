@@ -16,6 +16,7 @@ DIRS = ansi-c \
        invariants \
        strings \
        jbmc-strings \
+       smt2_solver \
        strings-smoke-tests \
        test-script \
        # Empty last line
